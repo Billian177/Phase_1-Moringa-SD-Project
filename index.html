@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>SD Project P-1</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+
+    <header class="heading" id="top_navigation">
+      <h1 id="header">NBA BASKET<img 
+        src="Img/kisspng-basketball-court-canestro-basketball-ball.png" 
+        alt="Basket logo" id="logo">
+      </h1>
+
+      <div>
+        <a href="#" class="fa fa-facebook" style="color:#FF7F50">acebook</a>
+        <a href="#" class="fa fa-twitter" style="color:#FF7F50">twitter</a>
+        <button id="subscribe">subscribe</button>
+      </div>
+    </header>
+
+    <div class="Outer">
+
+      <div class="Inner">
+
+          <ul id="NbaTeams">
+            <!--List of teams go here-->
+            <h3>List of NBA Teams</h3>
+          </ul>
+      
+      </div>
+
+      <div class="Inner" id="InfoCentere">
+        
+        <ul id="list2">
+          <!--list of players will go here-->
+          <h3>List of Players</h3>
+        </ul>
+
+      </div>
+
+      <!-- showing page comments-->
+      <div class="Inner" id="userArea">
+          
+        <div id="CommentLikeArea">
+          <div><br><br>
+            <button id="like">Like</button>
+            <span id="likeNum">[X]</span>Page likes
+          </div>
+          <div>
+            <form action="" id="commentSection" method="POST">
+
+              <input type="submit" value="comment" id="submitButton">
+              <input type="text" id="comment" name="lname">
+              <br><br>
+
+            </form>
+            <div id="listComments">
+              <h4>Comments</h4>
+              <ul>
+                <li>--Replace comments--</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1/4</div>
+          <img src="SlideImages/andre-hunter-RPKdvPcYAUo-unsplash.jpg" style="width:100%">
+          <div class="text">Caption One</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2/4</div>
+          <img src="SlideImages/jc-gellidon-XmYSlYrupL8-unsplash.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3/4</div>
+          <img src="SlideImages/markus-spiske-BfphcCvhl6E-unsplash.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4/4</div>
+          <img src="SlideImages/markus-spiske-oPDQGXW7i40-unsplash.jpg" style="width:100%">
+          <div class="text">Caption Four</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+    </div>
+
+    <footer id="lower_navigation">
+      <p>This is Unofficial NBA Website:</p>
+      <p>The National Basketball Association is a professional basketball league in North America. The league is composed of 30 teams and is one of the major professional sports leagues in the United States and Canada.
+        It is the premier men's professional basketball league in the world.
+      </p>
+      <p>Edited by: Bill Ian Apiyo</p>
+      <p>Powered by: Moringa School</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
