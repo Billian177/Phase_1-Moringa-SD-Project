@@ -91,9 +91,12 @@ document.addEventListener("DOMContentLoaded", () => {
   
   };
 
-  function addLikeNum(array){
+  function addLikeNum(event){
     let likeTotal=[0]
-    
+    let numberNum= document.getElementById("likeNum")
+    event.forEach(()=> {
+        numberNum.innerText= likeTotal+1 
+    })
 
   }
   
