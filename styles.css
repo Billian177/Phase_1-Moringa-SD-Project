@@ -34,6 +34,11 @@
     max-width: 100%;
 }
 
+#NbaTeams{
+  text-align: left;
+  list-style-type: none;
+}
+
 #lower_navigation{
     background-color: #233242;
     padding: 10px 12px;
@@ -75,9 +80,9 @@ body{
     text-align: center;
 }
 
-#list1{
-    text-align: center;
-    justify-content: center;
+#list2{
+    text-align: left;
+    list-style-type: none;
 }
 
 * {box-sizing:border-box}
