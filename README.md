@@ -10,6 +10,10 @@ The page also contains slide images to NBA galleries where one can also have a v
 
 The content used in this project such as images are not copyright of my own work. Most have been obtained through online platforms, be carefull on using them anywhere else.
 
+  Instructions:
+  1. click love button to like our page
+  2. add comment using comment section
+
 Click this link to live web: https://billian177.github.io/Phase_1-Moringa-SD-Project/
 
 Thank you!
